@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width: 320px;
+    height: auto;
+}
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+.animate{
+    transition: all 0.5s linear;
+}
+.nav_banner{
+    width: 960px;
+    margin-left: 0;
+}
+.nav_banner>li{
+    width: 320px;
+    height: 100px;
+}
+.nav_banner>li img{
+    width: 100%;
+    height: 100%;
+}
+.input_text{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    display: block;
+    left: 5%;
+    background: url("../images/search.png");
+    color: gray;
+    background-size: 100%;
+}
+.list_tui{
+    padding: 10px 0;
+    background-color: #fbfbfb;
+}
+.list_tui span{
+    color: black;
+}
+.col_pai{
+    width: 300px;
+    padding: 8px 5px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid silver;
+}
+.caipin{
+    border-left: 3px solid orangered;
+    color: orangered;
+    padding-left: 10px;
+}
+.more_text{
+    color: orangered;
+}
+.list_tu{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.img_tu{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img_tu:nth-child(1){
+    padding-right: 5px;
+}
+.img_tu:nth-child(2){
+    padding-left: 5px;
+}
+.text_p{
+    margin-top: 10px;
+}
+.span_p{
+    color: orangered;
+}
+.cart_p{
+    margin-left: 90px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 320px;
+    background-color: #f6f6f6;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width: 320px;
+    height:500px;
+    background-color: #f9f9f9;
+}
+.title_h{
+    height: 50px;
+    width: 320px;
+    background-color: white;
+    line-height: 20px;
+}
+.lin_hgt{
+    line-height: 18px;
+}
+.lin_hgt a{
+    color: black;
+}
+.data_x{
+    color: silver;
+}
+.title{
+    padding: 10px;
+}
+.text_p{
+    padding: 10px;
+}

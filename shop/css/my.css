@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width: 320px;
+    height:auto;
+}
+.nav_title{
+    padding: 20px 0;
+    background: url("../images/top_bg.jpg");
+    height: 110px;
+}
+.nav_title>div:nth-child(1){
+    padding-right: 0;
+}
+.nav_title>div:nth-child(2){
+    padding-left: 5px;
+}
+.phone_x{
+    margin-top: 28px;
+    color: white;
+}
+.ullist{
+    margin-bottom: 100px;
+}
+.ullist li{
+    line-height: 35px;
+    border-bottom: 1px solid silver;
+}
+.ullist li a{
+    margin: 3px 15px;
+    font-size: 12px;
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.ullist li span{
+    margin-left: 10px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 320px;
+    background-color: #f6f6f6;
+}
