@@ -6,7 +6,7 @@
     var index;
     for(var i = 0;i < image.length;i++){
             image[i].index = i;
-            // console.log("image["+i+"].index="+image[i].index);
+            // console.log("image["+i+"].index="+image[i].index); 
             image[i].onmouseenter = function(){
                  clearInterval(times);
              }    
